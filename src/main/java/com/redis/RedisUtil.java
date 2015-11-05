@@ -17,7 +17,7 @@ public class RedisUtil {
 
 	public static final Jedis jedis=new Jedis("192.168.170.129");
 	public static final List<JedisShardInfo> shards = Arrays.asList(
-//	            new JedisShardInfo("192.168.170.129",6379),
+	            new JedisShardInfo("192.168.170.129",6379),
 	            new JedisShardInfo("192.168.170.129",6378));
 	
 	public ShardedJedisPool getSJP(){
