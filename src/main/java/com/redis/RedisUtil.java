@@ -70,7 +70,7 @@ public class RedisUtil {
 	@Test
 	public void setTest(){
 		this.setRedis("1", "2");
-//		this.delRedis("1");
+		this.delRedis("1");
 		System.out.println(this.getRedis("1"));
 	}
 	
